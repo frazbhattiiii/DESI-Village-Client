@@ -1,0 +1,70 @@
+[debug] [2022-08-17T16:02:01.509Z] ----------------------------------------------------------------------
+[debug] [2022-08-17T16:02:01.511Z] Command:       D:\Node js\node.exe C:\Users\Nabeel Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-17T16:02:01.512Z] CLI Version:   11.7.0
+[debug] [2022-08-17T16:02:01.512Z] Platform:      win32
+[debug] [2022-08-17T16:02:01.512Z] Node Version:  v18.7.0
+[debug] [2022-08-17T16:02:01.513Z] Time:          Wed Aug 17 2022 21:02:01 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-08-17T16:02:01.514Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-17T16:02:01.525Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-17T16:02:01.525Z] > authorizing via signed-in user (bhattifraz94@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\MERN STACK Project\Projects\Desi Village\DESI-VILLAGE\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-17T16:02:18.542Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-17T16:02:19.725Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-17T16:02:19.725Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-08-17T16:02:31.949Z] ----------------------------------------------------------------------
+[debug] [2022-08-17T16:02:31.950Z] Command:       D:\Node js\node.exe C:\Users\Nabeel Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-17T16:02:31.951Z] CLI Version:   11.7.0
+[debug] [2022-08-17T16:02:31.951Z] Platform:      win32
+[debug] [2022-08-17T16:02:31.951Z] Node Version:  v18.7.0
+[debug] [2022-08-17T16:02:31.953Z] Time:          Wed Aug 17 2022 21:02:31 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-08-17T16:02:31.953Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-17T16:02:31.963Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-17T16:02:31.963Z] > authorizing via signed-in user (bhattifraz94@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\MERN STACK Project\Projects\Desi Village\DESI-VILLAGE\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-08-17T16:02:55.353Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-08-17T16:02:55.354Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"desiVillage","name":"y"}
+[debug] [2022-08-17T16:02:57.554Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2022-08-17T16:02:57.554Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name must be at least 4 characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-08-17T16:02:58.285Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\Nabeel Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Nabeel Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.

@@ -1,0 +1,176 @@
+[
+  {
+    "freeDelivery": false,
+    "discount": "0",
+    "_id": "62daac2209e30cf3f608411f",
+    "vendor_id": "62d98c43af3a944e03b71032",
+    "name": "panini",
+    "price": 13.99,
+    "info": "The Vegan Panini",
+    "description": "A quick meal panini, drowned with cheese and filled with vegies",
+    "availability": true,
+    "delivery": true,
+    "category": "Cafe",
+    "rating": 4.5,
+    "imageURL": [
+      "1658498081265-image-download4.jpg",
+      "1658498081267-image-download2.jpg",
+      "1658498081268-image-download1.jpg",
+      "1658498081284-image-download.jpg"
+    ],
+    "createdAt": "2022-07-22T13:54:42.818Z",
+    "updatedAt": "2022-07-23T21:05:11.664Z",
+    "__v": 0,
+    "sizes": [
+      {
+        "size": "small",
+        "price": 13.99,
+        "units": "1pc",
+        "_id": "62dc556593f2d5ba4120a97b"
+      },
+      {
+        "size": "medium",
+        "price": 15.45,
+        "units": "1pc",
+        "_id": "62dc556593f2d5ba4120a97c"
+      },
+      {
+        "size": "large",
+        "price": 18.25,
+        "units": "1pc",
+        "_id": "62dc556593f2d5ba4120a97d"
+      }
+    ],
+    "timeForDelivery": 30,
+    "reviews": [
+      {
+        "_id": "62dbd0a3e28542ee46cb3220",
+        "name": "Fraz Bhatti",
+        "comment": "A very delicious Panini",
+        "rating": 4.5,
+        "__v": 0
+      }
+    ],
+    "speciality": "Soft Panini Bread",
+    "tags": [
+      "fast food",
+      "cafe",
+      "desi"
+    ]
+  },
+  {
+    "freeDelivery": false,
+    "discount": "0",
+    "_id": "62daac9e09e30cf3f608412a",
+    "vendor_id": "62d98c43af3a944e03b71032",
+    "name": "cold coffee",
+    "price": 13.99,
+    "info": "The Cold Hearted Coffee",
+    "description": "A quick cold refreshment, that would chill you to your core",
+    "availability": true,
+    "delivery": true,
+    "category": "Cafe",
+    "rating": 3,
+    "imageURL": [
+      "1658498206064-image-download (3).jpg",
+      "1658498206065-image-download (2).jpg",
+      "1658498206066-image-download (1).jpg",
+      "1658498206068-image-download.jpg"
+    ],
+    "createdAt": "2022-07-22T13:56:46.405Z",
+    "updatedAt": "2022-07-23T21:05:38.417Z",
+    "__v": 0,
+    "sizes": [
+      {
+        "size": "small",
+        "price": 13.99,
+        "units": "250mL",
+        "_id": "62dc562893f2d5ba4120a980"
+      },
+      {
+        "size": "medium",
+        "price": 15.45,
+        "units": "500mL",
+        "_id": "62dc562893f2d5ba4120a981"
+      },
+      {
+        "size": "large",
+        "price": 18.25,
+        "units": "750mL",
+        "_id": "62dc562893f2d5ba4120a982"
+      }
+    ],
+    "timeForDelivery": 45,
+    "reviews": [
+      {
+        "_id": "62dbd12f51bd42d57596d641",
+        "name": "Fraz Bhatti",
+        "comment": "This Coffee really lives up to its name :)",
+        "rating": 4,
+        "__v": 0
+      }
+    ],
+    "speciality": "Imported Coffee Beans",
+    "tags": [
+      "cafe",
+      "desert"
+    ]
+  },
+  {
+    "freeDelivery": false,
+    "_id": "62daad2809e30cf3f6084135",
+    "vendor_id": "62d98c43af3a944e03b71032",
+    "name": "club sandwich",
+    "price": 15.99,
+    "info": "The Special Sandwich",
+    "description": "Our speciality, a delightful, cheezy, and tender club sandwich filled with chicken and vegies",
+    "availability": true,
+    "delivery": true,
+    "category": "Cafe",
+    "rating": 5,
+    "imageURL": [
+      "1658498344076-image-download (3).jpg",
+      "1658498344078-image-download (2).jpg",
+      "1658498344078-image-download (1).jpg",
+      "1658498344079-image-download.jpg"
+    ],
+    "createdAt": "2022-07-22T13:59:04.566Z",
+    "updatedAt": "2022-07-23T21:06:03.804Z",
+    "__v": 0,
+    "reviews": [
+      {
+        "_id": "62dbd16651bd42d57596d644",
+        "name": "Fraz Bhatti",
+        "comment": "Outstanding! Exceptional. Really a speciality",
+        "rating": 5,
+        "__v": 0
+      }
+    ],
+    "speciality": "Cheeziest Sandwich",
+    "sizes": [
+      {
+        "size": "small",
+        "price": 15.99,
+        "units": "1pc",
+        "_id": "62dc567693f2d5ba4120a984"
+      },
+      {
+        "size": "medium",
+        "price": 18.45,
+        "units": "2pc",
+        "_id": "62dc567693f2d5ba4120a985"
+      },
+      {
+        "size": "large",
+        "price": 20.25,
+        "units": "3pc",
+        "_id": "62dc567693f2d5ba4120a986"
+      }
+    ],
+    "tags": [
+      "cafe",
+      "fast food"
+    ],
+    "discount": "30"
+  }
+]
